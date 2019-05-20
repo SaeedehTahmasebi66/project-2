@@ -1,0 +1,191 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4px;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#mainContainer{
+    width: 30%;
+    margin: auto;
+}
+
+/*header*/
+header{
+    background: url(images/header1.png) no-repeat;
+    height: 220px;
+    color: white;
+    position: relative;
+}
+
+/*Top bar of the header*/
+#topBar{
+    height: 13%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+#topBar #branding h1{
+    position: absolute;
+    top: 10px;
+    left: 4%;
+    font-size: 8px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header li{
+    display: inline;
+    margin: 2%;
+}
+
+#leftNav{
+    position: absolute;
+    top: 12px;
+    left: 18%;
+}
+
+#rightNav{
+    position: absolute;
+    top: 12px;
+    right: 18%;
+}
+#mainMenu{
+    position: absolute;
+    top: 12px;
+    right: 4%;
+}
+
+/*Subject area of the header*/
+#subjectArea{
+    height: 70%;
+    position: relative;
+}
+
+#year{
+    position: absolute;
+    top: 40px;
+    left: 4%;
+}
+
+#subjectContent{
+    position: absolute;
+    top: 40px;
+    left: 18%;
+}
+
+#subjectContent h4{
+    margin-bottom: 5px;
+}
+#subjectContent h1{
+    margin-bottom: 26px;
+    font-size: 16px;
+}
+
+#counter{
+    font-size: 16px;
+    position: absolute;
+    top: 48px;
+    right: 34%;
+}
+
+#dots i{
+    display: block;
+    margin: 4px 0;
+}
+
+#dots{
+    position: absolute;
+    top: 44px;
+    right: 4%;
+}
+
+/*lower bar of the header*/
+#lowerBar{
+    height: 17%;
+    position: relative;
+}
+
+#socialNetworks i{
+    display: block;
+    margin: 8px 0;
+    
+}
+#socialNetworks{
+    position: absolute;
+    left: 4%;
+    bottom: 0;
+}
+
+#detailArrow{
+    position: absolute;
+    bottom: 8px;
+    left: 18%;
+}
+
+#bottomNav{
+    background-color: white;
+    color: #78909c;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+#bottomNav ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#bottomNav ul li{
+    width: 20%;
+}
+
+#bottomNav ul li div{
+    display: inline-block;
+    font-size: 5px;
+}
+
+#bottomNav h6{
+    margin-bottom: 2px;
+}
+#bottomNav p{
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
