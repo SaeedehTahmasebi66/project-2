@@ -1,6 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 4px;
+    font-size: 12px;
     margin: 0;
     padding: 0;
 }
@@ -11,7 +11,7 @@ body{
 }
 
 #mainContainer{
-    width: 30%;
+    width: 90%;
     margin: auto;
     border: 1px rgb(253, 222, 165) solid;
     box-sizing: border-box;
@@ -20,7 +20,7 @@ body{
 /*header*/
 header{
     background: url(images/header1.png) no-repeat;
-    height: 220px;
+    height: 660px;
     color: white;
     position: relative;
 }
@@ -35,11 +35,11 @@ header{
 
 #topBar #branding {
     position: absolute;
-    top: 10px;
+    top: 30px;
     left: 4%;
 }
 #topBar #branding h1{
-    font-size: 8px;
+    font-size: 24px;
 }
 
 
@@ -50,23 +50,23 @@ header a{
 }
 header li{
     display: inline;
-    margin: 1px;
+    margin: 3px;
 }
 
 #leftNav{
     position: absolute;
-    top: 12px;
+    top: 36px;
     left: 18%;
 }
 
 #rightNav{
     position: absolute;
-    top: 12px;
+    top: 36px;
     right: 18%;
 }
 #mainMenu{
     position: absolute;
-    top: 12px;
+    top: 36px;
     right: 4%;
 }
 
@@ -78,39 +78,39 @@ header li{
 
 #year{
     position: absolute;
-    top: 40px;
+    top: 120px;
     left: 4%;
 }
 
 #subjectContent{
     position: absolute;
-    top: 40px;
+    top: 120px;
     left: 18%;
 }
 
 #subjectContent h4{
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 #subjectContent h1{
-    margin-bottom: 26px;
-    font-size: 16px;
+    margin-bottom: 78px;
+    font-size: 48px;
 }
 
 #counter{
-    font-size: 16px;
+    font-size: 48px;
     position: absolute;
-    top: 48px;
+    top: 144px;
     right: 34%;
 }
 
 #dots i{
     display: block;
-    margin: 4px 0;
+    margin: 12px 0;
 }
 
 #dots{
     position: absolute;
-    top: 44px;
+    top: 132px;
     right: 4%;
 }
 
@@ -122,7 +122,7 @@ header li{
 
 #socialNetworks i{
     display: block;
-    margin: 8px 0;
+    margin: 24px 0;
     
 }
 #socialNetworks{
@@ -133,7 +133,7 @@ header li{
 
 #detailArrow{
     position: absolute;
-    bottom: 8px;
+    bottom: 24px;
     left: 18%;
 }
 
@@ -160,11 +160,11 @@ header li{
 
 #bottomNav ul li div{
     display: inline-block;
-    font-size: 5px;
+    font-size: 15px;
 }
 
 #bottomNav h6{
-    margin-bottom: 2px;
+    margin-bottom: 6px;
 }
 #bottomNav p{
     text-transform: capitalize;
@@ -173,13 +173,13 @@ header li{
 
 /* mainSection */
 #mainSection{
-    height: 520px;
+    height: 1560px;
     position: relative;
 }
 
 #explanation{
     width: 24%;
-    font-size: 10px;
+    font-size: 30px;
     font-weight: bold;
     position: absolute;
     left: 18%;
@@ -190,7 +190,7 @@ header li{
     position: absolute;
     top: -24%;
     color: #6c828d;
-    font-size: 6px;
+    font-size: 18px;
 }
 
 #explanation p{
@@ -242,7 +242,7 @@ img#four {
     
 }
 #newsLetter h3{
-    font-size: 10px;
+    font-size: 30px;
     margin-bottom: 10%;
 }
 #newsLetter p{
@@ -253,7 +253,7 @@ img#four {
 footer{
     border-top: 1px rgb(253, 222, 165) solid;
     width: 92%;
-    height: 26px;
+    height: 72px;
     margin: auto;
     position: relative;
 }
