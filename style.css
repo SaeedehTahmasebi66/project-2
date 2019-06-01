@@ -13,6 +13,8 @@ body{
 #mainContainer{
     width: 30%;
     margin: auto;
+    border: 1px rgb(253, 222, 165) solid;
+    box-sizing: border-box;
 }
 
 /*header*/
@@ -31,12 +33,15 @@ header{
 }
 
 
-#topBar #branding h1{
+#topBar #branding {
     position: absolute;
     top: 10px;
     left: 4%;
+}
+#topBar #branding h1{
     font-size: 8px;
 }
+
 
 header a{
     color: white;
@@ -45,7 +50,7 @@ header a{
 }
 header li{
     display: inline;
-    margin: 2%;
+    margin: 1px;
 }
 
 #leftNav{
@@ -164,6 +169,116 @@ header li{
 #bottomNav p{
     text-transform: capitalize;
 }
+
+
+/* mainSection */
+#mainSection{
+    height: 520px;
+    position: relative;
+}
+
+#explanation{
+    width: 24%;
+    font-size: 10px;
+    font-weight: bold;
+    position: absolute;
+    left: 18%;
+    top: 10%;
+}
+
+#explanation h6{
+    position: absolute;
+    top: -24%;
+    color: #6c828d;
+    font-size: 6px;
+}
+
+#explanation p{
+    margin-bottom: 10%;
+}
+
+#explanation i{
+    font-size: smaller;
+    color: #6c828d;
+}
+
+img#one {
+    position: absolute;
+    top: 10%;
+    right: 18%;
+    width: 30%;
+    height: 26%;
+}
+
+img#two {
+    position: absolute;
+    top: 26%;
+    left: 18%;
+    width: 22%;
+    height: 26%;
+}
+
+img#three {
+    position: absolute;
+    top: 46%;
+    right: 18%;
+    width: 26%;
+    height: 22%;
+}
+
+img#four {
+    position: absolute;
+    top: 62%;
+    left: 18%;
+    width: 28%;
+    height: 26%;
+}
+
+#newsLetter{
+    width: 25%;
+    position: absolute;
+    top: 74%;
+    left: 56%;
+    
+}
+#newsLetter h3{
+    font-size: 10px;
+    margin-bottom: 10%;
+}
+#newsLetter p{
+    margin-bottom: 10%;
+}
+
+/* footer */
+footer{
+    border-top: 1px rgb(253, 222, 165) solid;
+    width: 92%;
+    height: 26px;
+    margin: auto;
+    position: relative;
+}
+
+#rights{
+    position: absolute;
+    left: 3%;
+    top: 42%;
+}
+
+#contactUs{
+    position: absolute;
+    left: 45%;
+    top: 42%;
+}
+
+#networks{
+    width: 10%;
+    position: absolute;
+    right: 3%;
+    top: 42%;
+    display: flex;
+    justify-content: space-between;
+}
+
 
 
 
