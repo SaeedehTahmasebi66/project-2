@@ -22,7 +22,7 @@ header{
     background: url(images/header1.png) no-repeat;
     background-size: 100% 100%;
     background-color: orange;
-    height: 660px;
+    height: 650px;
     color: white;
     position: relative;
 }
@@ -34,25 +34,24 @@ header{
     position: relative;
 }
 
-
 #topBar #branding {
     position: absolute;
-    top: 30px;
+    top: 28.5px;
     left: 4%;
 }
 #topBar #branding h1{
     font-size: 24px;
 }
 
-
 header a{
     color: white;
     text-decoration: none;
     text-transform: uppercase;
 }
+
 header li{
     display: inline;
-    margin: 3px;
+    margin-right: 16px;
 }
 
 #leftNav{
@@ -71,6 +70,21 @@ header li{
     top: 36px;
     right: 4%;
 }
+
+#listBox{
+    background-color: rgb(225, 60, 0);;
+    position: absolute;
+    top: 16px;
+    right: 0;
+    display: none;
+    
+}
+
+#listBox li{
+    display: block;
+    margin-left: 15%;
+}
+
 
 /*Subject area of the header*/
 #subjectArea{
@@ -101,19 +115,31 @@ header li{
 #counter{
     font-size: 48px;
     position: absolute;
-    top: 144px;
-    right: 34%;
+    top: 149px;
+    right: 35%;
 }
 
 #dots i{
     display: block;
     margin: 12px 0;
+    font-size: 8px;
 }
 
 #dots{
     position: absolute;
-    top: 132px;
+    top: 137px;
     right: 4%;
+}
+
+.current{
+    color: rgb(225, 60, 0);
+    font-weight: bold;
+    font-size: larger;
+}
+
+a:hover, #dots i:hover, #mainMenu i:hover{
+    color: rgb(225, 60, 0);
+    font-weight: bold;
 }
 
 /*lower bar of the header*/
@@ -168,9 +194,20 @@ header li{
 #bottomNav h6{
     margin-bottom: 6px;
 }
+
 #bottomNav p{
     text-transform: capitalize;
 }
+
+.selected{
+    color: black;
+    font-weight: bold;
+}
+
+#bottomNav li:hover{
+    color: black;
+}
+
 
 
 /* mainSection */
