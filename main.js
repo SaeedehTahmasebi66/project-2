@@ -1,0 +1,4 @@
+
+function toggleListBox(){
+    $("#listBox").toggle();
+}
