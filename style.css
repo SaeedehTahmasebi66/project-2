@@ -204,7 +204,7 @@ header li{
     color: #6c828d;
 }
 
-img#one {
+div#one {
     position: absolute;
     top: 10%;
     right: 18%;
@@ -212,7 +212,7 @@ img#one {
     height: 26%;
 }
 
-img#two {
+div#two {
     position: absolute;
     top: 26%;
     left: 18%;
@@ -220,7 +220,7 @@ img#two {
     height: 26%;
 }
 
-img#three {
+div#three {
     position: absolute;
     top: 46%;
     right: 18%;
@@ -228,12 +228,41 @@ img#three {
     height: 22%;
 }
 
-img#four {
+div#four {
     position: absolute;
     top: 62%;
     left: 18%;
     width: 28%;
     height: 26%;
+}
+
+#images img{
+    width: 100%;
+    height: 100%;
+}
+
+.label {
+    background-color: white;
+    width: 70%;
+    height: 20%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.text{
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    margin: 0 12%;
+}
+
+.text h6{
+    margin-bottom: 2%;
+    color: tomato;
 }
 
 #newsLetter{
