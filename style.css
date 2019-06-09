@@ -72,17 +72,25 @@ header li{
 }
 
 #listBox{
-    background-color: rgb(225, 60, 0);;
+    background-color: rgb(225, 60, 0);
+    height: 120px;
+    width: 8rem;
+    border-radius: 10%;
     position: absolute;
     top: 16px;
     right: 0;
-    display: none;
-    
+    display: none;  
 }
 
 #listBox li{
     display: block;
-    margin-left: 15%;
+    width: 80%;
+    margin: 4% 8%;
+    text-align: center;
+}
+
+#mainMenu #listBox ul li:hover{
+    text-decoration-line: underline;     /* problem: It works just for the first two items!!! */
 }
 
 
