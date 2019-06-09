@@ -10,6 +10,7 @@
     crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script src="jquery-3.3.1.min.js"></script>
+    <script src="honeyFoms.js"></script>
     <script src="main.js"></script>
 </head>
 <body>
@@ -56,9 +57,9 @@
                 </div>
                 <h1 id="counter">01</h1>
                 <div id="dots">
-                    <i class="fas fa-circle current"></i>
-                    <i class="fas fa-circle"></i>
-                    <i class="fas fa-circle"></i>
+                    <i class="fas fa-circle current" id="firstDot" onclick="changeFormOfHoney(formOne, '#liquid')"></i>
+                    <i class="fas fa-circle" id="secondDot" onclick="changeFormOfHoney(formTwo, '#comb')"></i>
+                    <i class="fas fa-circle" id="thirdDot" onclick="changeFormOfHoney(formThree, '#crystallized')"></i>
                 </div>
             </section>
 
@@ -71,9 +72,9 @@
                 <div id="detailArrow"><i class="fas fa-chevron-down fa-2x"></i></div>
                 <nav id="bottomNav">
                     <ul>
-                        <li><div class="selected"> <h6>Liquid Honey</h6><p>The one we all know and love</p> </div></li>
-                        <li><div> <h6>Comb Honey</h6><p>Honey inside of the honeycomb</p> </div></li>
-                        <li><div> <h6>Crystallized Honey</h6><p>Glucose content has crystallized</p> </div></li>
+                        <li class="selected" id="liquid"><div> <h6>Liquid Honey</h6><p>The one we all know and love</p> </div></li>
+                        <li id="comb"><div> <h6>Comb Honey</h6><p>Honey inside of the honeycomb</p> </div></li>
+                        <li id="crystallized"><div> <h6>Crystallized Honey</h6><p>Glucose content has crystallized</p> </div></li>
                     </ul>
                 </nav>
             </section>
