@@ -20,5 +20,12 @@ function changeFormOfHoney(dot, honeyId) {
 
     /* change the background image of the header */
     $("header").css('background', dot.image);
+
+    /* change Read Me content */
+    $("#readMoreBox").html(dot.info);
+}
+
+function toggleReadMoreBox(){
+    $("#readMoreBox").toggle();
 }
 
