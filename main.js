@@ -17,5 +17,8 @@ function changeFormOfHoney(dot, honeyId) {
     /* change the selected bottom bar */
     $("#bottomNav li.selected").removeClass("selected");
     $(honeyId).addClass("selected");
+
+    /* change the background image of the header */
+    $("header").css('background', dot.image);
 }
 
