@@ -123,6 +123,10 @@ header li{
     font-size: 48px;
 }
 
+#subjectContent p:hover{
+    cursor: pointer;
+}
+
 #readMoreBox{
     text-align: center;
     background-color: rgb(225, 60, 0);
@@ -232,6 +236,7 @@ a:hover, #dots i:hover, #mainMenu i:hover{
 
 #bottomNav li:hover{
     color: black;
+    cursor: pointer;
 }
 
 
